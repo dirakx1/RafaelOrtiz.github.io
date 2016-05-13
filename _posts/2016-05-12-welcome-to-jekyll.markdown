@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to RafaelOrtiz page"
 date:   2016-05-12 16:30:47 -0400
 categories: jekyll update
 ---
