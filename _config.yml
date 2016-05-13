@@ -8,10 +8,10 @@
 # Site settings
 title: Rafael Ortiz Page
 email: dirakx@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
+description:  # this means to ignore newlines until "baseurl:"
   Innovator and thinker, wanting to fix things building awesome technologies,
   binding, unifying and learning.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "http://RafaelOrtiz.github.io" # the subpath of your site, e.g. /blog
 url: "http://RafaelOrtiz.github.io" # the base hostname & protocol for your site
 twitter_username: dirakx
 github_username:  RafaelOrtiz
