@@ -4,13 +4,36 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-heading">Hi, I'm Rafael Ortiz</h1>
+
+  <p>AI practitioner and software engineer building systems where intelligence meets the real world —
+  from LLM-powered IoT platforms to creative AI tools.</p>
+
+  <p>
+    <a href="{{ "/projects/" | prepend: site.baseurl }}">View my projects</a> &nbsp;·&nbsp;
+    <a href="{{ "/about/" | prepend: site.baseurl }}">About me</a>
+  </p>
+
+  <h2 class="page-heading" style="margin-top: 2em;">Featured Projects</h2>
+
+  <ul class="post-list">
+    <li>
+      <h2><a class="post-link" href="https://github.com/dirakx1/clariot">Clariot</a></h2>
+      <p>AI agent-based IoT platform. Containerized LLM agents process sensor data and drive actuators through a Sensor → Agent → Actuator architecture.</p>
+    </li>
+    <li>
+      <h2><a class="post-link" href="https://github.com/dirakx1/poemweaver">PoemWeaver</a></h2>
+      <p>Generate poems, stories, and haikus in your own voice or in the style of famous authors — powered by AI trained on your writing.</p>
+    </li>
+  </ul>
+
+  {% if site.posts.size > 0 %}
+  <h2 class="page-heading" style="margin-top: 2em;">Writing</h2>
 
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
@@ -19,5 +42,6 @@ layout: default
   </ul>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  {% endif %}
 
 </div>

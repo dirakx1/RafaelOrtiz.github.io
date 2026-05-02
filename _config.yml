@@ -1,20 +1,16 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-title: Rafael Ortiz Page
+title: Rafael Ortiz
 email: dirakx@gmail.com
-description:  # this means to ignore newlines until "baseurl:"
-  Innovator and thinker, wanting to fix things building awesome technologies,
-  binding, unifying and learning.
-baseurl: "http://RafaelOrtiz.github.io" # the subpath of your site, e.g. /blog
-url: "http://RafaelOrtiz.github.io" # the base hostname & protocol for your site
+description: >-
+  AI practitioner and software engineer building intelligent systems that
+  connect people with technology. Focused on practical AI, open-source tools,
+  and creative applications of machine learning.
+baseurl: "/RafaelOrtiz.github.io"
+url: "https://dirakx1.github.io"
 twitter_username: dirakx
-github_username:  RafaelOrtiz
+github_username: dirakx1
 
 # Build settings
 markdown: kramdown
+plugins:
+  - jekyll-feed
