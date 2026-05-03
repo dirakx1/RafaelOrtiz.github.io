@@ -34,6 +34,18 @@ Whether you want to write like Neruda, Dickinson, or like yourself, PoemWeaver u
 
 ---
 
+## MoneyOnRoot
+
+**[github.com/dirakx1/moneyonroot](https://github.com/dirakx1/moneyonroot)**
+
+A scalable, secure, and distributed money transfer platform that combines AI agents with blockchain to move funds between clients without centralised intermediaries.
+
+AI agents handle the orchestration and decision logic — validating transfers, detecting anomalies, and routing transactions — while the blockchain layer provides the immutable, trustless settlement infrastructure. The result is a system that is both intelligent and verifiable: agents that can reason, on a ledger that can't lie.
+
+**Stack:** AI Agents · Blockchain · Distributed Systems
+
+---
+
 ## Open Source Contributions
 
 Beyond personal projects, I contribute to open-source tools that make AI more accessible and reliable. Find my work at [github.com/dirakx1](https://github.com/dirakx1).
